@@ -34,8 +34,8 @@
     - Interessen: Geld erwirtschaften
 
 - **Freiwillige Helfer (THW, Deutsches Rotes Kreuz, Veranstalter)**
-    - Rolle: 
-    - Interessen:
+    - Rolle: Organisation der Veranstaltung durch verschiedene Know How's 
+    - Interessen: Reibungsloser Ablauf der Veranstaltung
 
 - **Laufchips - Hersteller** 
     - Rolle: Messen und Überwachen der gelaufenen Strecke
@@ -53,14 +53,43 @@
 3. Definieren Sie insgesamt 10 Anforderungen an das zukünftige System. Es sind jeweils die notwendigen Attribute für die Anforderungen gemäß Vorlesung zu definieren. Betrachten Sie funktionale sowie nicht-funktionale Anforderungen. Skizzieren Sie für jede Anforderung einen Testfall mit dem der Erfolg der Anforderung am Ende des Projektes geprüft werden kann.
 
 - Webdienst reibungslos funktionieren
+
 - Intuitive Bedienbarkeit
+
 - Ansprechendes Design
+
 - Guter Codedesign , leichte Wartbarkeit 
+
 - Einbindung von alten Excel Tabellen
+
 - Ausfallssicherheit.
+
 - Skalierbarkeit der Server
+
 - Einfacher & Sicherer Zahlungsablauf 
-- Effizienter Projektablauf in bezug auf Zeit, Kosten, Personal
+
+- Effizienter Projektablauf in bezug auf Zeit, Kosten, 
+Personal
+
 - Schnelle Anmeldeprozess 
+
 - schnelle Publikation der Ergebnisliste 
-- 
+
+
+| Nr  |  Name / Anforderungen |  Typ  |  Klassifikationen  |  Priorität *  |
+|---|---|---|---|---|
+| 1  | Webdienst | funktional  | wichtig  |  1 |
+| 2  |  Bedienbarkeit |  nicht funktional | wichtig  |  7 |
+| 3  |  User Interface | nicht funktional  | wichtig  |  8 |
+| 4  | Wartbarkeit  | nicht funktional  | nebensächlich  |  10 |
+| 5  |  Schnittstelle | funktional  |  nebensächlich | 11  | 
+| 6  |  Ausfallsicherheit | nicht funktional  | wichtig  | 5  |
+| 7  |  Skalierbarkeit | funktional  | nebensächlich  |  9 |
+| 8  |  Transaktionen | funktional  | wichtig  |  3 |
+| 9  |  Anmeldeprozess | funktional  | wichtig  |  2 |
+| 10  | Auswertung  | funktional  |  wichtig |  4 |
+| 11  | Projektablauf  |  nicht funktional | wichtig  | 6  |
+
+
+
+  *Priorität von 1 bis 11 in Bezug auf Nutzen, Risiko und Kosten.
