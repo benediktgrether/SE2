@@ -1,0 +1,44 @@
+*
+    font-family: $font
+
+header
+    padding: 15px
+
+div.login
+    text-align: right
+
+div.headline-message
+    text-align: center
+    font-size: 50px
+    margin-bottom: 50px
+
+div.message-card
+    max-width: 500px
+    margin-left: auto
+    margin-right: auto
+    border-radius: 10px
+    padding: 15px
+    box-shadow: 0px 6px 44px 0px rgba(0,0,0,0.3)
+
+li
+    // display: inline
+    list-style: none
+    width: auto
+    // float: left
+
+ul.message:not(:last-child)
+    margin-bottom: 15px
+    padding-bottom: 15px 
+    border-bottom: 1px solid lighten($black, 80%)
+
+li.message-name
+    margin-right: 10px
+    font-size: 20px
+    margin-bottom: 5px
+
+span.message-timestamp
+    font-size: 14px
+    color: lighten($black, 50%)
+
+li.message-text
+    font-size: 16px
