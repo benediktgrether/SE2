@@ -1,28 +1,56 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SE2 - Login</title>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="assets/dist/css/main.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale= 1.0">
+
+
+    <!--[if lt IE 9]>
+                <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+                <![endif]-->
 </head>
+
 <body>
     <header>
+        <div class="login">nicht angemeldet</div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Nachricht</a></li>
+                <li><a href="./message.html">Neue Nachricht</a></li>
+                <li><a class="active" href="./registration.html">Registration</a></li>
+            </ul>
+        </nav>
+
     </header>
     <main>
+        <div class="headline-message">
+            <h1>Registration</h1>
+        </div>
         <form action="./message.html" method="post">
-            <fieldset>
-                <label for="username">Username</label>
-                <input type="text" name="username" id="username" placeholder="Username"/>
-                <label for="password">Password</label>
-                <input type="password" name="" id="password" placeholder="Password"/>
-                <label for="name">First Name</label>
-                <input type="text" name="firstname" id="name" placeholder="First Name"/>
-                <label for="email">E-Mail</label>
-                <input type="text" name="email" id="email" placeholder="E-Mail"/>
-                <input type="submit" value="Absenden">
+            <fieldset >
+                <div class="input-container">
+                    <label for="username">Username</label>
+                    <input class="input-text" type="text" name="username" id="username" placeholder="Username" />
+                </div>
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input class="input-text" type="password" name="" id="password" placeholder="Password" />
+                </div>
+                <div class="input-container">
+                    <label for="name">First Name</label>
+                    <input class="input-text" type="text" name="firstname" id="name" placeholder="First Name" />
+                </div>
+                <div class="input-container">
+                    <label for="email">E-Mail</label>
+                    <input class="input-text" type="text" name="email" id="email" placeholder="E-Mail" />
+                </div>
+                <input class="btn-primary" type="submit" value="Absenden">
             </fieldset>
         </form>
     </main>
 </body>
+
 </html>

@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SE 2 - Message</title>
+    <link rel="stylesheet" type="text/css" href="assets/dist/css/main.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale= 1.0">
+
+
+    <!--[if lt IE 9]>
+                            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+                            <![endif]-->
 </head>
+
 <body>
     <header>
+        <div class="login">nicht angemeldet</div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Nachricht</a></li>
+                <li><a class="active" href="./message.html">Neue Nachricht</a></li>
+                <li><a href="./registration.html">Registration</a></li>
+            </ul>
+        </nav>
 
     </header>
     <main>
+        <div class="headline-message">
+            <h1>Neue Nachricht</h1>
+        </div>
         <form action="./index.html" method="post">
             <fieldset>
-                <textarea name="message" id="message" cols="30" rows="4" placeholder="Your Message"></textarea><br>
-                <label for="location">Location</label>
-                <input type="text" id="location" />
-                <label for="date">Date</label>
-                <input type="date" name="date" id="date" />
-                <input type="submit" value="Abschicken" />
+                <div class="input-container">
+                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <div class="input-container">
+                    <label for="location">Location</label>
+                    <input class="input-text" type="text" id="location" />
+                </div>
+                <div class="input-container">
+                    <label for="date">Date</label>
+                    <input class="input-text" type="date" name="date" id="date" />
+                </div>
+                <input class="btn-primary" type="submit" value="Abschicken" />
             </fieldset>
         </form>
     </main>
 </body>
+
 </html>
