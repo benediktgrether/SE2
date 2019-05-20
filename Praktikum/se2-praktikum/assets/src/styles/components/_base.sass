@@ -26,12 +26,12 @@ li
         &:hover
             // color: lighten(#333333, 20%)
             // border-bottom: 2px solid lighten(#333333, 20%)
-            color: #e23e57
-            border-bottom: 2px solid #e23e57
+            color: $red
+            border-bottom: 2px solid $red
 
     .active
-        color: #e23e57
-        border-bottom: 2px solid #e23e57
+        color: $red
+        border-bottom: 2px solid $red
 
 main
     margin-bottom: 50px
@@ -45,9 +45,9 @@ section.section-hover
     border-right: 5px solid white
     transition: all 0.5s ease-in-out       
     &:hover
-        color: #e23e57
-        border-right: 5px solid #e23e57
-        // border-bottom: 2px solid #e23e57
+        color: $red
+        border-right: 5px solid $red
+        // border-bottom: 2px solid $red
 
 
 
@@ -94,6 +94,7 @@ div.message-text
 
 fieldset
     display: flex
+    flex-direction: column
     max-width: 400px
     margin-left: auto
     margin-right: auto
@@ -140,3 +141,9 @@ textarea
     width: 100%
     font-size: 16px
     margin-bottom: 5px
+
+.textarea-container
+    width: 100%
+
+.returnCounter
+    color: $red
